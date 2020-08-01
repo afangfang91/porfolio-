@@ -1,0 +1,458 @@
+a {
+  text-decoration: none;
+  color: #efe3cb;
+}
+
+/* ヘッター */
+header {
+  background-color: #02213d;
+  height: 70px;
+}
+
+.l-header {
+  background-color: #02213d;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
+  clear: both;
+}
+
+#logo {
+  float: left;
+  height: 70px;
+}
+
+#nav {
+  float: right;
+}
+
+#nav ul li {
+  float: left;
+  margin-left: 50px;
+  line-height: 70px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#nav ul li:hover a {
+  color: #f8d704;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 24px;
+  border: 1px solid #faeb89;
+  border-radius: 8px;
+  background: #f8d704;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8d704), to(#a89224));
+  background: -moz-linear-gradient(top, #f8d704, #a89224);
+  background: linear-gradient(to bottom, #f8d704, #a89224);
+  text-shadow: #591717 1px 1px 1px;
+  font: normal normal bold 20px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background: #ffff05;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffff05), to(#caaf2b));
+  background: -moz-linear-gradient(top, #ffff05, #caaf2b);
+  background: linear-gradient(to bottom, #ffff05, #caaf2b);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button:active {
+  background: #958102;
+  background: -webkit-gradient(linear, left top, left bottom, from(#958102), to(#a89224));
+  background: -moz-linear-gradient(top, #958102, #a89224);
+  background: linear-gradient(to bottom, #958102, #a89224);
+}
+
+/* メイン PIC slog*/
+.w {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.main {
+    position: relative;
+  width:100%;
+  height: 673px;
+    margin: 0 auto;
+}
+
+.focus {
+
+  width: 1366px;
+  height: 673px;
+  /* overflow: hidden; */
+
+}
+
+.focus ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600%;
+  background-color: #fff;
+  border-radius: 24px;
+
+}
+
+.focus ul li {
+  float: left;
+  margin-left: 40px;
+
+}
+
+.arrow-l,
+.arrow-r {
+  display: none;
+  position: absolute;
+  top: 40%;
+  margin-top: -20px;
+  z-index: 100;
+}
+
+
+.arrow-r {
+  right: 0
+}
+
+.circle {
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
+
+.circle li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  /*background-color: #fff;*/
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin: 0 3px;
+  border-radius: 50%;
+  /*鼠标经过显示小手*/
+  cursor: pointer;
+}
+
+.current {
+  background-color: #fff;
+}
+
+section .notice {
+  margin: 70px auto;
+  width: 800px;
+}
+
+.notice h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: HGKyokashotai;
+  margin: 30px auto;
+}
+
+.notice ul {
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.notice li {
+  float: left;
+  width: 100%;
+  color: grey;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.notice p {
+  float: left;
+  margin-right: 20px;
+  padding-left: 70px;
+}
+
+.notice a {
+  display: inline-block;
+  color: #ABABAB;
+}
+
+.talklogo {
+  width: 306px;
+  margin: 0 auto;
+}
+
+.talk {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.talk ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.talk ul li {
+  flex: 1;
+  width: 50%;
+  text-align: center;
+  transition: all .5s
+}
+
+.talk ul li img {
+  width: 450px;
+  height: 100%;
+}
+
+.talk ul li:hover {
+  transform: scale(1.05);
+}
+
+.sub-event ul {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.sub-event li {
+  overflow: hidden;
+  float: left;
+  transition: all .5s;
+  width: 340px;
+  height: 297px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.box {
+  overflow: hidden;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 340px;
+  height: 100px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  background: #02213d;
+  transition: all 1s;
+  box-sizing: border-box;
+}
+
+.sub-event ul li:hover .box {
+  bottom: 0px;
+}
+
+.other {
+  width: 100%;
+  height: 70px;
+  background-color: #f5f5f5;
+  line-height: 70px;
+  text-align: center;
+}
+
+.other a {
+  color: #b4b4b4;
+}
+
+.global {
+  position: relative;
+  height: 950px;
+}
+
+.map {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+}
+
+.pro {
+  width: 800px;
+  height: 100px;
+  background-color: #02213d;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.pro h1 {
+  font-size: 24px;
+}
+
+.girls {
+  position: absolute;
+  top: -30px;
+  left: 50px;
+}
+
+.global-service {
+  text-align: center;
+  height: 474px;
+}
+
+.global-service img {
+  margin: 0 auto;
+}
+
+.bgc {
+  background-color: #02213d;
+  position: relative;
+  height: 100%;
+}
+
+.studetns {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+
+.guy {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  z-index: 10;
+}
+
+.uni {
+  margin: 0 auto;
+  background-color: #fff;
+  width: 100%;
+}
+
+.bgcy {
+  background-color: #f9cd02;
+}
+
+.form {
+  width: 48%;
+  height: 700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#caption {
+  width: 120%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
+
+#caption h1 {
+  font-size: 36px;
+}
+
+#caption h2 {
+  font-size: 16px;
+  color: #aaaaaa;
+  font-weight: bold;
+}
+.form-input-box input {
+  border-style: 0;
+}
+
+.form-input-box {
+  position: relative;
+}
+
+.form-content {
+  font: 15px/24px sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px auto;
+  padding: 15px 20px;
+  transition: 0.3s;
+  border: 0;
+  border-radius: 2px;
+  outline: none;
+}
+
+.form-content {
+  padding-left: 40px;
+}
+
+.form-input-box i {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  padding: 9px 8px;
+  transition: 0.3s;
+  color: #aaaaaa;
+}
+
+.form-content:focus+i {
+  color: #f9cd02;
+}
+
+#buttonTwo{
+padding: 10px 40px;
+border-radius: 1px;
+font-size: 30px;
+}
+
+footer {
+  font-family: Brandon Grotesque;
+  background-color: #02213d;
+  font-size: 14px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 32px;
+  position: relative;
+}
+
+.footer-bottom ul {
+  font-weight: bold;
+  float: left;
+  margin-left: 80px;
+  color: #f7d690;
+}
+
+.footer-bottom li {
+  font-weight: normal;
+  color: #787e86;
+}
+
+.footer-img {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 40px;
+  height: 55px;
+  text-align: center;
+}
+
+.footer-boy {
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+  z-index: 100;
+  vertical-align: baseline;
+}
